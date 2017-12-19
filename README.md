@@ -1,1 +1,53 @@
 ![Pragmatic Functional JavaScript](https://i.imgur.com/MgViIhg.png)
+
+## Summary
+
+- Introduction
+  - What does "Pragmatism" Mean?
+  - Why Functional Programming?
+  - Curiosities About JavaScript
+- Fantasy Land
+  - Unicorns and Rainbows
+- Modules
+  - The Top Level
+- Composition: Profit!
+  - Composition over Inheritance
+  - Currying and Partial Application
+  - Tacit Programming
+  - Combinators
+  - Pipe vs. Compose
+- Roots of the Evil
+  - Nullity Considered Harmful
+  - Mutability Can Kill your Hamster
+  - Please Track your Effects
+  - Loops are so 80's
+  - Expressions over Statements
+- Error Handling
+  - Don't Throw it on me!
+- Asynchronous but Still Reliable
+  - So you Still don't Know Promises?
+  - Are Futures the Future?
+- Libraries
+  - Ramda
+  - Folktale
+- Into Monads and Functors
+- Types
+  - Flow is your Friend
+  - Don't Abuse Polymorphism
+  - Algebraic Data Types
+- For React Developers
+- Hacking the Compiler
+  - Extending Babel
+  - Sweet Macros
+- A Bit of Theory
+  - Lambda Calculus
+- Functional Languages targeting JavaScript
+  - LiveScript
+  - PureScript
+  - ReasonML
+  - Elm
+- Solving Real Problems
+- The Jargons
+- Final Considerations
+  - ¡Gracias!
+  - Your Next Steps
