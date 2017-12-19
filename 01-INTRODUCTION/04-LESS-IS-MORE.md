@@ -1,6 +1,6 @@
 # Less is more
 
-In this book, we will deprecate a lot of things from JS that you probably uses.
+In this book, we will deprecate a lot of things from JS that you probably use.
 Imperative programming introduces several statements to solve the same sort of
 problems, but why is this a problem? Having different ways to solve a problem
 in a same context and without a very specific reason to tell one from another
