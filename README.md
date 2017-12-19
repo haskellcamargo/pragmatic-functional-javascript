@@ -1,4 +1,4 @@
-![Pragmatic Functional JavaScript](https://i.imgur.com/MgViIhg.png)
+![Pragmatic Functional JavaScript](./cover.jpg)
 
 ## Summary
 
