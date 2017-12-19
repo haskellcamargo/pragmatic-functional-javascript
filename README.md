@@ -7,22 +7,25 @@
   - [Why functional programming?](./01-INTRODUCTION/02-WHY-FUNCTIONAL-PROGRAMMING.md)
   - [Curiosities about JavaScript](./01-INTRODUCTION/03-CURIOSITIES-ABOUT-JAVASCRIPT.md)
   - [Less is more](./01-INTRODUCTION/04-LESS-IS-MORE.md)
-- Fantasy Land
-  - Unicorns and Rainbows
-- Modules
-  - The Top Level
-- Composition: Profit!
-  - Composition over Inheritance
-  - Currying and Partial Application
-  - Tacit Programming
-  - Combinators
-  - Pipe vs. Compose
 - Roots of the Evil
   - Nullity Considered Harmful
   - Mutability Can Kill your Hamster
   - Please Track your Effects
   - Loops are so 80's
   - Expressions over Statements
+- Modules
+  - The Top Level
+- Meet ESLint
+  - Forbidding Imperative Syntax
+  - ESLint Plugins to the Rescue
+- Fantasy Land
+  - Unicorns and Rainbows
+- Composition: Profit!
+  - Composition over Inheritance
+  - Currying and Partial Application
+  - Tacit Programming
+  - Combinators
+  - Pipe vs. Compose
 - Error Handling
   - Don't Throw it on me!
 - Asynchronous but Still Reliable
