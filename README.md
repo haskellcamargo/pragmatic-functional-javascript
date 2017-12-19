@@ -7,8 +7,8 @@
   - [Why functional programming?](./01-INTRODUCTION/02-WHY-FUNCTIONAL-PROGRAMMING.md)
   - [Curiosities about JavaScript](./01-INTRODUCTION/03-CURIOSITIES-ABOUT-JAVASCRIPT.md)
   - [Less is more](./01-INTRODUCTION/04-LESS-IS-MORE.md)
-- Roots of the Evil
-  - Nullity Considered Harmful
+- [Roots of the evil](./02-ROOTS-OF-THE-EVIL)
+  - [Nullity considered harmful](./02-ROOTS-OF-THE-EVIL/01-NULLITY-CONSIDERED-HARMFUL.md)
   - Mutability Can Kill your Hamster
   - Please Track your Effects
   - Loops are so 80's
