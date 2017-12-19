@@ -2,9 +2,9 @@
 
 ## Summary
 
-- Introduction
-  - What does "Pragmatism" Mean?
-  - Why Functional Programming?
+- [Introduction](./01-INTRODUCTION/)
+  - [What does "pragmatism" mean?](./01-INTRODUCTION/01-WHAT-DOES-PRAGMATISM-MEAN.md)
+  - [Why functional programming?](./01-INTRODUCTION/02-WHY-FUNCTIONAL-PROGRAMMING.md)
   - Curiosities About JavaScript
 - Fantasy Land
   - Unicorns and Rainbows
