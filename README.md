@@ -6,6 +6,7 @@
   - [What does "pragmatism" mean?](./01-INTRODUCTION/01-WHAT-DOES-PRAGMATISM-MEAN.md)
   - [Why functional programming?](./01-INTRODUCTION/02-WHY-FUNCTIONAL-PROGRAMMING.md)
   - [Curiosities about JavaScript](./01-INTRODUCTION/03-CURIOSITIES-ABOUT-JAVASCRIPT.md)
+  - [Less is more](./01-INTRODUCTION/04-LESS-IS-MORE.md)
 - Fantasy Land
   - Unicorns and Rainbows
 - Modules
