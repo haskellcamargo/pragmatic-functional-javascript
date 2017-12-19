@@ -1,2 +1,1 @@
-# pragmatic-functional-javascript
-The "Pragmatic Functional JavaScript" book
+![Pragmatic Functional JavaScript](https://i.imgur.com/MgViIhg.png)
