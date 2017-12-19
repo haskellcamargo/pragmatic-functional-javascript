@@ -1,4 +1,4 @@
-# WHAT DOES "PRAGMATISM" MEAN?
+# What does "pragmatism" mean?
 
 Pragmatism, noun, a **practical** aproach to problems and affairs. There is no
 word that can describe this book better. We are going to focus on practical
