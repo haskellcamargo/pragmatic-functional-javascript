@@ -24,6 +24,7 @@
 * Monads and functors
   * What the hell is a monad?
   * Dealing with dangerous snakes
+  * Exceptions are exceptions, not the rule
 * Awesome libraries
   * Ramda
   * Folktale
@@ -40,6 +41,4 @@
   * ReasonML
   * Elm
   * ClojureScript
-
-
 
