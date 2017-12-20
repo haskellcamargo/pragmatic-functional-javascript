@@ -34,5 +34,12 @@
   * Sweet macros
 * [A bit of theory](a-bit-of-theory.md)
   * Lambda calculus
-* Monads and functors
+* Functional languages targeting JavaScript
+  * LiveScript
+  * PureScript
+  * ReasonML
+  * Elm
+  * ClojureScript
+
+
 
