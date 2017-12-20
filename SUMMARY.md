@@ -10,6 +10,12 @@
   * Take care with side-effects
   * Loops are so 80's
   * The Hadouken effect
+* Meet ESLint
+  * Restricting imperative syntax
+  * Plugins to the rescue
+* Modules
+  * The SOLID equivalence
+  * Top-level declarations
 * Types
   * Why types matter
   * Flow is your friend

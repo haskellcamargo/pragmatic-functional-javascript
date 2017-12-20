@@ -2,21 +2,14 @@
 
 ## Summary
 
-* Modules
-
-  * The Top Level
-
-* Meet ESLint
-
-  * Forbidding Imperative Syntax
-  * ESLint Plugins to the Rescue
-
 * Composition: Profit!
+
   * Composition over Inheritance
   * Currying and Partial Application
   * Tacit Programming
   * Combinators
   * Pipe vs. Compose
+
 * Error Handling
   * Don't Throw it on me!
 * Asynchronous but Still Reliable
@@ -28,6 +21,7 @@
 * Into Monads and Functors
 
 * For React Developers
+
 * Hacking the Compiler
   * Extending Babel
   * Sweet Macros
@@ -38,6 +32,7 @@
 * Solving Real Problems
 
 * The Jargons
+
 * Final Considerations
   * ¡Gracias!
   * Your Next Steps
