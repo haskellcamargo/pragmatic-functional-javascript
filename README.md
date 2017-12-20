@@ -10,10 +10,6 @@
   * Combinators
   * Pipe vs. Compose
 
-* Error Handling
-
-  * Don't Throw it on me!
-
 * Asynchronous but Still Reliable
 
   * So you Still don't Know Promises?
@@ -21,14 +17,7 @@
 
 * For React Developers
 
-* Solving Real Problems
-
 * The Jargons
-
-* Final Considerations
-
-  * ¡Gracias!
-  * Your Next Steps
 
 
 
