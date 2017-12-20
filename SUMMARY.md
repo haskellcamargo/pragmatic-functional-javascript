@@ -25,6 +25,9 @@
   * What the hell is a monad?
   * Dealing with dangerous snakes
   * Exceptions are exceptions, not the rule
+* Async programming
+  * So you still don't understand promises?
+  * Futures
 * Awesome libraries
   * Ramda
   * Folktale
@@ -46,9 +49,6 @@
   * Playing with files
   * Network requests
 * Final considerations
-* Async programming
-  * So you still don't understand promises?
-  * Futures
 
 
 
