@@ -3,18 +3,16 @@
 ## Summary
 
 * [Introduction](./01-INTRODUCTION/)
+
   * [What does "pragmatism" mean?](./01-INTRODUCTION/01-WHAT-DOES-PRAGMATISM-MEAN.md)
   * [Why functional programming?](./01-INTRODUCTION/02-WHY-FUNCTIONAL-PROGRAMMING.md)
   * [Curiosities about JavaScript](./01-INTRODUCTION/03-CURIOSITIES-ABOUT-JAVASCRIPT.md)
   * [Less is more](./01-INTRODUCTION/04-LESS-IS-MORE.md)
-* [Roots of the evil](./02-ROOTS-OF-THE-EVIL)
-  * [Nullity considered harmful](./02-ROOTS-OF-THE-EVIL/01-NULLITY-CONSIDERED-HARMFUL.md)
-  * Mutability Can Kill your Hamster
-  * Please Track your Effects
-  * Loops are so 80's
-  * Expressions over Statements
+
 * Modules
+
   * The Top Level
+
 * Meet ESLint
   * Forbidding Imperative Syntax
   * ESLint Plugins to the Rescue
@@ -45,11 +43,7 @@
   * Sweet Macros
 * A Bit of Theory
   * Lambda Calculus
-* Functional Languages targeting JavaScript
-  * LiveScript
-  * PureScript
-  * ReasonML
-  * Elm
+
 * Solving Real Problems
 * The Jargons
 * Final Considerations

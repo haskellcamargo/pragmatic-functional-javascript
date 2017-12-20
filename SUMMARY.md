@@ -10,4 +10,9 @@
   * The Hadouken effect
 * [Fantasy Land](fantasy-land.md)
   * Unicorns and rainbows
+* Functional languages targeting JavaScript
+  * LiveScript
+  * PureScript
+  * ReasonML
+  * Elm
 
