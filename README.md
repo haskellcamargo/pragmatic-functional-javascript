@@ -15,21 +15,13 @@
   * Don't Throw it on me!
 
 * Asynchronous but Still Reliable
+
   * So you Still don't Know Promises?
   * Are Futures the Future?
 
 * Into Monads and Functors
 
 * For React Developers
-
-* Hacking the Compiler
-
-  * Extending Babel
-  * Sweet Macros
-
-* A Bit of Theory
-
-  * Lambda Calculus
 
 * Solving Real Problems
 
