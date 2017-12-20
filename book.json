@@ -2,6 +2,7 @@
     "title": "Pragmatic Functional JavaScript",
     "description": "Real world functional programming inside JavaScript environment",
     "pdf": {
-        "fontSize": 16
+        "fontSize": 16,
+        "fontFamily": "Quattrocento"
     }
 }
