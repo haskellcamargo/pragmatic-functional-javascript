@@ -21,6 +21,9 @@
   * Flow is your friend
   * Don't abuse polymorphism
   * Algebraic data types
+* Awesome libraries
+  * Ramda
+  * Folktale
 * [Welcome to Fantasy Land](fantasy-land.md)
   * Unicorns and rainbows
 * [Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
