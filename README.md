@@ -19,8 +19,6 @@
   * So you Still don't Know Promises?
   * Are Futures the Future?
 
-* Into Monads and Functors
-
 * For React Developers
 
 * Solving Real Problems

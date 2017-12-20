@@ -21,6 +21,9 @@
   * Flow is your friend
   * Don't abuse polymorphism
   * Algebraic data types
+* Monads and functors
+  * What the hell is a monad?
+  * Dealing with dangerous snakes
 * Awesome libraries
   * Ramda
   * Folktale
@@ -31,10 +34,5 @@
   * Sweet macros
 * [A bit of theory](a-bit-of-theory.md)
   * Lambda calculus
-* Functional languages targeting JavaScript
-  * LiveScript
-  * PureScript
-  * ReasonML
-  * Elm
-  * ClojureScript
+* Monads and functors
 
