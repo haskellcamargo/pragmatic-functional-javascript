@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
   * [What does "pragmatism" mean?](what-does-pragmatism-mean.md)
-  * The second chance
+  * [The second chance](the-second-chance.md)
   * Less is more
 * [Roots of the evil](roots-of-the-evil.md)
   * Null considered harmful
@@ -59,3 +59,4 @@
   * Testing
 * Final considerations
   * What should I learn now?
+
