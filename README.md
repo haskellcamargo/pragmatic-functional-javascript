@@ -11,20 +11,22 @@
   * Pipe vs. Compose
 
 * Error Handling
+
   * Don't Throw it on me!
+
 * Asynchronous but Still Reliable
   * So you Still don't Know Promises?
   * Are Futures the Future?
-* Libraries
-  * Ramda
-  * Folktale
+
 * Into Monads and Functors
 
 * For React Developers
 
 * Hacking the Compiler
+
   * Extending Babel
   * Sweet Macros
+
 * A Bit of Theory
 
   * Lambda Calculus
@@ -34,6 +36,7 @@
 * The Jargons
 
 * Final Considerations
+
   * ¡Gracias!
   * Your Next Steps
 
