@@ -46,6 +46,9 @@
   * Playing with files
   * Network requests
 * Final considerations
+* Async programming
+  * So you still don't understand promises?
+  * Futures
 
 
 
