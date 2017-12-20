@@ -16,22 +16,22 @@
 * Modules
   * The SOLID equivalence
   * Top-level declarations
-* Types
-  * Why types matter
-  * Flow is your friend
-  * Don't abuse polymorphism
-  * Algebraic data types
 * The power of composition
   * Thinking in functions
   * Currying and partial application
   * Point-free programming
   * Piping and composing
   * Combinators
+* Types
+  * Why types matter
+  * Flow is your friend
+  * Don't abuse polymorphism
+  * Algebraic data types
 * Monads and functors
   * What the hell is a monad?
   * Dealing with dangerous snakes
   * Handling state
-  * Exceptions are exceptions, not the rule
+  * Exceptions are not the rule
 * Async programming
   * So you still don't understand promises?
   * Futures
@@ -53,8 +53,9 @@
   * Elm
   * ClojureScript
 * Solving real world problems
-  * Integrating with shitty libraries
+  * Integrating with external libraries
   * Playing with files
   * Network requests
+  * Testing
 * Final considerations
   * What should I learn now?
