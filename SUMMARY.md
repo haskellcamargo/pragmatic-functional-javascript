@@ -8,9 +8,9 @@
   * Take care with side-effects
   * Loops are so 80's
   * The Hadouken effect
-* [Fantasy Land](fantasy-land.md)
+* [Welcome to Fantasy Land](fantasy-land.md)
   * Unicorns and rainbows
-* Functional languages targeting JavaScript
+* [Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
   * LiveScript
   * PureScript
   * ReasonML
