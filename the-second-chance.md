@@ -13,3 +13,9 @@ But computers improved a lot, and functional programming finally got its deserve
 
 A lot of modern programming languages support well functional programming. Even Java surrended to this and implemented lambda expressions and streams. Most of you program in languages that were created; I want to show you the one which was discovered.
 
+
+
+## Why functional programming?
+
+If imperative programming and other paradigms, like object orientation, were good enough, why do I need to learn a new way to code? The answer is: survival. Object orientation cannot save us from the cloud monster anymore. More complex problems have arisen and functional programming fits them very well. Functional programming is not "another syntax", as some people think; it is another mindset and a declarative way to solve problems. While in imperative programming you specify steps and how things happen, in declarative \(functional and logic\) programming you specify what has to be done, and the computer should decide how to do that. We've evolved a lot to do the job that a computer can do hundreds of times better than us.
+
