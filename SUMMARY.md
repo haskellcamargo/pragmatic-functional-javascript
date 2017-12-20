@@ -26,9 +26,9 @@
   * Folktale
 * [Welcome to Fantasy Land](fantasy-land.md)
   * Unicorns and rainbows
-* [Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
-  * LiveScript
-  * PureScript
-  * ReasonML
-  * Elm
+* Hacking the compiler
+  * Extending Babel
+  * Sweet macros
+* A bit of theory
+* A bit of theory
 
