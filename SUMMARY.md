@@ -29,6 +29,12 @@
 * Hacking the compiler
   * Extending Babel
   * Sweet macros
-* A bit of theory
-* A bit of theory
+* [A bit of theory](a-bit-of-theory.md)
+  * Lambda calculus
+* Functional languages targeting JavaScript
+  * LiveScript
+  * PureScript
+  * ReasonML
+  * Elm
+  * ClojureScript
 
