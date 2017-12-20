@@ -21,13 +21,21 @@
   * Flow is your friend
   * Don't abuse polymorphism
   * Algebraic data types
+* The power of composition
+  * Thinking in functions
+  * Currying and partial application
+  * Point-free programming
+  * Piping and composing
+  * Combinators
 * Monads and functors
   * What the hell is a monad?
   * Dealing with dangerous snakes
+  * Handling state
   * Exceptions are exceptions, not the rule
 * Async programming
   * So you still don't understand promises?
   * Futures
+  * Generators and lazy evaluation
 * Awesome libraries
   * Ramda
   * Folktale
@@ -49,6 +57,4 @@
   * Playing with files
   * Network requests
 * Final considerations
-
-
-
+  * What should I learn now?
