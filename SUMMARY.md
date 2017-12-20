@@ -6,6 +6,8 @@
   * Null considered harmful
   * Mutability can kill your hamster
   * Take care with side-effects
+  * Loops are so 80's
+  * The Hadouken effect
 * [Fantasy Land](fantasy-land.md)
   * Unicorns and rainbows
 
