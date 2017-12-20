@@ -41,6 +41,11 @@
   * ReasonML
   * Elm
   * ClojureScript
+* Solving real world problems
+  * Integrating with shitty libraries
+  * Playing with files
+  * Network requests
+* Final considerations
 
 
 
