@@ -1,6 +1,4 @@
-# ![Pragmatic Functional JavaScript](./cover.jpg)
-
-# Introduction
+![Pragmatic Functional JavaScript](./cover.jpg)
 
 
 
