@@ -5,7 +5,7 @@
   * [The second chance](the-second-chance.md)
   * [Less is more](less-is-more.md)
 * [Roots of the evil](roots-of-the-evil.md)
-  * Null considered harmful
+  * [Null considered harmful](roots-of-the-evil/null-considered-harmful.md)
   * Mutability can kill your hamster
   * Take care with side-effects
   * Loops are so 80's
