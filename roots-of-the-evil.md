@@ -1,4 +1,0 @@
-# Roots of the evil
-
-
-

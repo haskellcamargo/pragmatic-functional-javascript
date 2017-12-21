@@ -5,7 +5,7 @@
         "readme": "introduction.md"
     },
     "pdf": {
-        "fontSize": 16,
+        "fontSize": 15,
         "fontFamily": "Quattrocento"
     }
 }
