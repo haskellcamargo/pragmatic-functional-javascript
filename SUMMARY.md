@@ -1,7 +1,9 @@
 # Summary
 
+* [Introduction](INTRODUCTION.md)
+  * [What does "pragmatism" mean?](INTRODUCTION/what-does-pragmatism-mean.md)
+* [What does "pragmatism" mean?](what-does-pragmatism-mean.md)
 * [Introduction](README.md)
-  * [What does "pragmatism" mean?](what-does-pragmatism-mean.md)
   * [The second chance](the-second-chance.md)
   * [Less is more](less-is-more.md)
 * [Roots of the evil](roots-of-the-evil.md)
