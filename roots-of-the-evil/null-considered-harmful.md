@@ -33,5 +33,5 @@ Unless you have a **very** good excuse, don't return `null` when all you need to
 
 ### Can I use undefined?
 
-No. It is still another name and implementation for absence of value, but ECMAScript initial specifications had the two forms, so they were both kept to avoid breaking changes.
+No. It is still another name and implementation for absence of value, but ECMAScript initial specifications had the two forms, so they were both kept to avoid breaking changes. After we'll learn how to wrap values that maybe exist and avoid increasing code complexity, wait for it!
 
