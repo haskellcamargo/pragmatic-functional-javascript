@@ -3,13 +3,14 @@
 * [Introduction](README.md)
   * [What does "pragmatism" mean?](what-does-pragmatism-mean.md)
   * [The second chance](the-second-chance.md)
-  * Less is more
+  * [Less is more](less-is-more.md)
 * [Roots of the evil](roots-of-the-evil.md)
   * Null considered harmful
   * Mutability can kill your hamster
   * Take care with side-effects
   * Loops are so 80's
   * The Hadouken effect
+  * Somebody stop this!
 * Meet ESLint
   * Restricting imperative syntax
   * Plugins to the rescue
