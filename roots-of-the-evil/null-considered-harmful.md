@@ -8,7 +8,7 @@ When you have to compare for null to avoid runtime errors, your code logic forks
 
 ### Unpredictable types
 
-Why would I return `null` in a function that retrieves the list of users of the database when I can just return the **empty representation** of the expected type? ─ an empty array in this situation. The fact is that `null` can inhabit **any** type, and this makes the task of debugging a lot harder. Which one is more pragmatic?
+Why would you return `null` in a function that retrieves the list of users of the database when I can just return the **empty representation** of the expected type? ─ an empty array in this situation. The fact is that `null` can inhabit **any** type, and this makes the task of debugging a lot harder. Which one is more pragmatic?
 
 ```js
 const showUsers = () => {
@@ -34,6 +34,4 @@ Unless you have a **very** good excuse, don't return `null` when all you need to
 ### Can I use undefined?
 
 No. It is still another name and implementation for absence of value, but ECMAScript initial specifications had the two forms, so they were both kept to avoid breaking changes.
-
-
 
