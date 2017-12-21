@@ -1,9 +1,9 @@
 # Summary
 
-* [Introduction](INTRODUCTION.md)
-  * [What does "pragmatism" mean?](INTRODUCTION/what-does-pragmatism-mean.md)
-  * [The second chance](INTRODUCTION/the-second-chance.md)
-  * [Less is more](INTRODUCTION/less-is-more.md)
+* [Introduction](introduction.md)
+  * [What does "pragmatism" mean?](introduction/what-does-pragmatism-mean.md)
+  * [The second chance](introduction/the-second-chance.md)
+  * [Less is more](introduction/less-is-more.md)
 * [Roots of the evil](roots-of-the-evil.md)
   * [Null considered harmful](roots-of-the-evil/null-considered-harmful.md)
   * Mutability can kill your hamster
