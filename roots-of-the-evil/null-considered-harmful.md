@@ -31,5 +31,9 @@ Because who needs concise boolean logic? I do!
 
 Unless you have a **very** good excuse, don't return `null` when all you need to do is giving a simple boolean answer. First thing: `null` is not `false`, `null` is the absence of value, and in this case we don't have a boolean representation, but a three-state model. Booleans should never be nullable.
 
+### Can I use undefined?
+
+No. It is still another name and implementation for absence of value, but ECMAScript initial specifications had the two forms, so they were both kept to avoid breaking changes.
+
 
 
