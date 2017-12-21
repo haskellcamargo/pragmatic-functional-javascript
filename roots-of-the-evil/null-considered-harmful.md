@@ -1,4 +1,3 @@
 ## Null considered harmful
 
-And by
-
+And by `null`, we also mean `undefined`.
