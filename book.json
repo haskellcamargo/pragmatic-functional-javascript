@@ -2,7 +2,7 @@
     "title": "Pragmatic Functional JavaScript",
     "description": "Real world functional programming inside JavaScript environment",
     "structure": {
-    
+        "readme": "INTRODUCTION.md"
     },
     "pdf": {
         "fontSize": 16,
