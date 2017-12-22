@@ -12,3 +12,9 @@ When possible, we'll provide the problem that we are trying to solve with altern
 
 
 
+### The author
+
+Marcelo Camargo is a developer and translator known in Brazil for advocating in favor of functional programming. He is the creator of the Quack programming language, Skype unofficial version for Linux and contributor on dozens of open-source projects. If you want to talk about compilers and type theory, you can easily find him on GitHub under [/haskellcamargo](https://github.com/haskellcamargo).
+
+
+
