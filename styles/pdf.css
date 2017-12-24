@@ -1,3 +1,7 @@
 p, blockquote, ul, ol, dl, table, pre {
     text-align: justify;
 }
+
+code {
+    font-family: Inconsolata !important;
+}
