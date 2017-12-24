@@ -53,7 +53,7 @@
   * Sweet macros
 * [12. A bit of theory](a-bit-of-theory.md)
   * Lambda calculus
-* [13. Functional languages targeting JavaScript](functional-languages-targeting-javascript)
+* [13. Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
   * LiveScript
   * PureScript
   * ReasonML
