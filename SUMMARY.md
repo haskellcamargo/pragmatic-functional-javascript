@@ -7,7 +7,7 @@
   * [Tooling](introduction/tooling.md)
 * [2. Roots of the evil](roots-of-the-evil.md)
   * [Null considered harmful](roots-of-the-evil/null-considered-harmful.md)
-  * Mutability can kill your hamster
+  * [Mutability can kill your hamster](roots-of-the-evil/mutability-can-kill-your-hamster.md)
   * Take care with side-effects
   * Loops are so 80's
   * The Hadouken effect
