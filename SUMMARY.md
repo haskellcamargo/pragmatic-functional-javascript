@@ -54,7 +54,7 @@
 * [12. A bit of theory](a-bit-of-theory.md)
   * Lambda calculus
 * [13. Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
-  * LiveScript
+  * [LiveScript](functional-languages-targeting-javascript/livescript.md)
   * PureScript
   * ReasonML
   * Elm
@@ -67,6 +67,4 @@
   * Testing
 * [15. Final considerations](final-considerations.md)
   * What should I learn now?
-
-
 
