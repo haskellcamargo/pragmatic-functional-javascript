@@ -11,7 +11,7 @@
   * Take care with side-effects
   * Loops are so 80's
   * The Hadouken effect
-  * Somebody stop this!
+  * [Somebody stop this!](roots-of-the-evil/somebody-stop-this.md)
 * [3. Meet ESLint](meet-eslint.md)
   * Restricting imperative syntax
   * Plugins to the rescue
