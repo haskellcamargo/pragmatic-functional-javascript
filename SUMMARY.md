@@ -9,7 +9,7 @@
   * [Null considered harmful](roots-of-the-evil/null-considered-harmful.md)
   * [Mutability can kill your hamster](roots-of-the-evil/mutability-can-kill-your-hamster.md)
   * Take care with side-effects
-  * Type coercion is a bad boy
+  * [Type coercion is a bad boy](roots-of-the-evil/type-coercion-is-a-bad-boy.md)
   * Loops are so 80's
   * The Hadouken effect
   * [Somebody stop this!](roots-of-the-evil/somebody-stop-this.md)
