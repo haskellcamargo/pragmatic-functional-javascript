@@ -14,7 +14,7 @@
   * The Hadouken effect
   * [Somebody stop this!](roots-of-the-evil/somebody-stop-this.md)
 * [3. Meet ESLint](meet-eslint.md)
-  * Restricting imperative syntax
+  * [Restricting imperative syntax](meet-eslint/restricting-imperative-syntax.md)
   * Plugins to the rescue
 * [4. Modules](modules.md)
   * The SOLID equivalence
