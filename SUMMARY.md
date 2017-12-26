@@ -1,20 +1,20 @@
 # Summary
 
 * [1. Introduction](introduction.md)
-  * [What does "pragmatism" mean?](introduction/what-does-pragmatism-mean.md)
-  * [The second chance](introduction/the-second-chance.md)
-  * [Less is more](introduction/less-is-more.md)
-  * [Tooling](introduction/tooling.md)
+  * [What does "pragmatism" mean?](introduction.md#what-does-pragmatism-mean)
+  * [The second chance](introduction.md#the-second-chance)
+  * [Less is more](introduction.md#less-is-more)
+  * [Tooling](introduction.md#tooling)
 * [2. Roots of the evil](roots-of-the-evil.md)
-  * [Null considered harmful](roots-of-the-evil/null-considered-harmful.md)
-  * [Mutability can kill your hamster](roots-of-the-evil/mutability-can-kill-your-hamster.md)
+  * [Null considered harmful](roots-of-the-evil.md#null-considered-harmful)
+  * [Mutability can kill your hamster](roots-of-the-evil.md#mutability-can-kill-your-hamster)
   * Take care with side-effects
-  * [Type coercion is a bad boy](roots-of-the-evil/type-coercion-is-a-bad-boy.md)
+  * [Type coercion is a bad boy](roots-of-the-evil.md#type-coercion-is-a-bad-boy)
   * Loops are so 80's
   * The Hadouken effect
-  * [Somebody stop this!](roots-of-the-evil/somebody-stop-this.md)
+  * [Somebody stop this!](roots-of-the-evil.md#somebody-stop-this)
 * [3. Meet ESLint](meet-eslint.md)
-  * [Restricting imperative syntax](meet-eslint/restricting-imperative-syntax.md)
+  * [Restricting imperative syntax](meet-eslint.md#restricting-imperative-syntax)
   * Plugins to the rescue
 * [4. Modules](modules.md)
   * The SOLID equivalence
@@ -55,7 +55,7 @@
 * [12. A bit of theory](a-bit-of-theory.md)
   * Lambda calculus
 * [13. Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
-  * [LiveScript](functional-languages-targeting-javascript/livescript.md)
+  * [LiveScript](functional-languages-targeting-javascript.md#livescript)
   * PureScript
   * ReasonML
   * Elm
