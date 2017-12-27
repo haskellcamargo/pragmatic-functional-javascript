@@ -65,6 +65,31 @@ Reversibility matters a lot. Since 2015, new tools for front-end development hav
 
 And I'm not joking. Debugging becomes still harder when you are dealing with multiple processes and asynchronous programming. Did you ever wonder how in the world that variable suddenly had its value changed? When you combine mutability with nullity, you create a dangerous monster.
 
+### References may be a problem
+
+And the problem increases when you add mutable references; they are, at first, hard for compiler optimization and creates a snowball where any point of the application that receives a reference is able to mutate the value hold by the variable. References are very useful in some situations, but unless you really need to use them and you know what you are doing, avoid them JavaScript has a special problem where some methods work on references instead of values, and you can easily lose the control of the situation:
+
+```javascript
+const list = [8, 3, 1, 2, 7, 4]
+// The sorted list
+console.log(list.sort()) // [1, 2, 3, 4, 7, 8]
+
+// Then original list... oh wait!
+console.log(list) // [1, 2, 3, 4, 7, 8]
+```
+
+So, if in any point of the application a function that is called to work with the list decides to sort the values, it will mess up with your original data and increase the possibility of a wrong or unexpected computation. Some functions that operate on arrays to keep distance:
+
+* `copyWithin`
+* `fill`
+* `pop`
+* `push`
+* `reverse`
+* `shift`
+* `sort`
+* `splice`
+* `unshift`
+
 ## Type coercion is a bad boy
 
 While static typing helps avoiding mistakes and unexpected behaviors, type coercion helps losing the control about your data values and types. Type coercion means that when the operands of an operator have different types, then they are converted to an equivalent and acceptable value by that operator. For instance, when you do:
