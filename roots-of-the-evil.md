@@ -90,6 +90,8 @@ So, if in any point of the application a function that is called to work with th
 * `splice`
 * `unshift`
 
+They are documented in the Mozilla Developer Network in the section "[Mutator methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods)" of the `Array` object.
+
 ## Type coercion is a bad boy
 
 While static typing helps avoiding mistakes and unexpected behaviors, type coercion helps losing the control about your data values and types. Type coercion means that when the operands of an operator have different types, then they are converted to an equivalent and acceptable value by that operator. For instance, when you do:
