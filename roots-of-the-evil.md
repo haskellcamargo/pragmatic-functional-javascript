@@ -29,9 +29,7 @@ Don't make it complex when you can make it simple.
 
 ### True, false ...and null!?
 
-Unless you have a **very** good excuse, don't return `null` when all you need to do is giving a simple boolean answer. First thing: `null` is not `false`, `null` is the absence of value, and in this case we don't have a boolean representation, but a three-state model. Booleans should never be nullable.
-
-
+Unless you have a **very** good excuse, don't return `null` when all you need to do is giving a simple boolean answer. First thing: `null` is not `false`, `null` is the absence of value, and in this case we don't have a boolean representation, but a three-state model. Booleans should never be nullable \(or they aren't booleans at all\) ─ and `null` is not the same as `false` and not even supposed to be.
 
 ## Mutability can kill your hamster
 
