@@ -8,6 +8,10 @@ And by `null`, we also mean `undefined`. It is hard to see a programmer who neve
 
 Null references were introduced in ALGOL-W programming language decades ago; 1964 to be specific. They hadn't any special purpose except they were considered "easy to implement" by the language designers, and a lot of modern languages implemented it for the same reason ─ and it gone viral. At that time, most of the softwares, including the compiler, were written in machine code with little or no abstraction. But what is wrong with `null`?
 
+### \(too many\) runtime exceptions
+
+I don't mean runtime exceptions would be abolished if `null` were, but they would reduce a lot for sure. Unexpected exceptions due no null references are very common in the life of Java, JavaScript, C, Go and C\# programmers ─ and we could avoid that with monads, as we will see in the next chapters.
+
 ### It increases complexity
 
 When you have to compare for null to avoid runtime errors, your code logic forks and creates a new path of possibilities. If you use lots of `null` values, the chance of having spaghetti code that becomes hard to maintain is really big. Object-oriented languages recommend the _null object pattern_, while functional languages use monads for that. Luckily, there are lots of libraries and monadic implementations for JavaScript to abstract and avoid this problem. We'll see monads in details and how to properly handle `null` later ─ for now we'll be presenting the problems and seeking the solution will be a task for the next chapters.
