@@ -2,7 +2,11 @@
 
 ## Null considered harmful
 
-And by `null`, we also mean `undefined`. It is hard to see a programmer we never had any sort of problems with null references, null pointers or anything that can represent that absence of a value. For JavaScript programmers, `undefined is not a function`,   for the C\# young men in suits, `NullReferenceException`, and for unlucky one who use need to use Java, the classic `java.lang.NullPointerException`. Do you think we really need `null` as a special language construct? In this point, there is also a consensus between functional programmers and object-oriented programmers: `null` was a secular mistake.
+And by `null`, we also mean `undefined`. It is hard to see a programmer who never had any sort of problems with null references, null pointers or anything that can represent the absence of a value. For JavaScript programmers, `undefined is not a function`,   for the C\# young men in suits, `NullReferenceException`, and for unlucky one who use need to use Java, the classic `java.lang.NullPointerException`. Do you think we really need `null` as a special language construct? In this point, there is also a consensus between functional programmers and object-oriented programmers: `null` was a secular mistake.
+
+### A brief history
+
+Null references were introduced in ALGOL-W programming language decades ago; 1964 to be specific. They hadn't any special purpose except they were considered "easy to implement" by the language designers, and a lot of modern languages implemented it for the same reason ─ and it gone viral. At that time, most of the softwares, including the compiler, were written in machine code with little or no abstraction. But what is wrong with `null`?
 
 ### It increases complexity
 
