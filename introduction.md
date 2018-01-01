@@ -18,6 +18,8 @@ This book is separated in 15 chapters with specific subsections:
 14. **Solving real world problems**: presents common daily problems and functional approaches, step by step, to solve them. It is not only about solving problems, but solving problems in such way that they will generate less problems later.
 15. **Final considerations**: is our "goodbye". It is not the conclusion, because software development approaches are evolving really fast, and assuming that a specific way to get the job done is the best for all the times is definitely foolish.
 
+Most parts of this book are independent, so you can read chapters in the order you prefer, and the order we set here is only a suggestion (except for the final considerations, of course).
+
 
 ## What does "pragmatism" mean?
 

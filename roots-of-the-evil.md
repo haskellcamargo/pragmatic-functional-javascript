@@ -91,6 +91,7 @@ So, if in any point of the application a function that is called to work with th
 * `unshift`
 
 They are documented in the Mozilla Developer Network in the section "[Mutator methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods)" of the `Array` object.
+
 Our computers are powerful enough to deal with immutable data transformation without major overheads, that are lots of libraries that do that (but you might not need them), so there is almost no reason to be concerned with micro optimizations that will already occur in compile time. Yes, compile time. The most famous implementations of JavaScript, such as the one which runs on Chrome and Node are compiled (and not directly interpreted) to native machine code right when the program is "started", this is known as JIT ─ Just in time compilation, and then the compiled program executes.
 
 ## Type coercion is a bad boy
