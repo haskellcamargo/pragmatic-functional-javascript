@@ -6,3 +6,9 @@ Isn't that cute and wonderful? Fantasy Land is a specification for algebraic Jav
 
 But first, how can we define an algebra?
 
+* **A set of values**: like primitive numbers, strings or even other data structures.
+* **A set of operators**: that can be applied to values.
+* **A set of laws**: the the operations applied to these values must obey.
+
+
+
