@@ -8,7 +8,9 @@ But first, how can we define an algebra?
 
 * **A set of values**: like primitive numbers, strings or even other data structures.
 * **A set of operators**: that can be applied to values.
-* **A set of laws**: the the operations applied to these values must obey.
+* **A set of laws**: the operations applied to these values must obey.
+
+Each Fantasy Land algebra is a separate specification. Some algebras may depend on other algebras. The JavaScript primitives also have equivalents to some of these algebras, as we will see in some occasions. The specification warrants that values that satisfy to specific algebras can be safely replaced by other values that also respect them. For example, we can have:
 
 
 
