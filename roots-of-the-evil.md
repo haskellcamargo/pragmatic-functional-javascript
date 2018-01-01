@@ -10,7 +10,7 @@ Null references were introduced in ALGOL-W programming language decades ago; 196
 
 ### \(too many\) runtime exceptions
 
-I don't mean runtime exceptions would be abolished if `null` were, but they would reduce a lot for sure. Unexpected exceptions due no null references are very common in the life of Java, JavaScript, C, Go and C\# programmers ─ and we could avoid that with monads, as we will see in the next chapters.
+I don't mean runtime exceptions would be abolished if `null` were, but they would reduce a lot for sure. Unexpected exceptions due no null references are very common in the life of Java, JavaScript, C, Go and C\# programmers ─ and we could avoid that with specific techniques. We can't have exceptions involving `null` values if we don't have `null` values.
 
 ### It increases complexity
 
@@ -91,6 +91,7 @@ So, if in any point of the application a function that is called to work with th
 * `unshift`
 
 They are documented in the Mozilla Developer Network in the section "[Mutator methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype#Mutator_methods)" of the `Array` object.
+Our computers are powerful enough to deal with immutable data transformation without major overheads, that are lots of libraries that do that (but you might not need them), so there is almost no reason to be concerned with micro optimizations that will already occur in compile time. Yes, compile time. The most famous implementations of JavaScript, such as the one which runs on Chrome and Node are compiled (and not directly interpreted) to native machine code right when the program is "started", this is known as JIT ─ Just in time compilation, and then the compiled program executes.
 
 ## Type coercion is a bad boy
 
@@ -114,6 +115,8 @@ TypeError: cannot concatenate 'str' and 'int' objects
 ```
 
 And this helps preventing a lot of bugs that would be caught only in distant point of the program. Type coercion is a misnomer, as long as values have no types in the sense of static typed languages, but it is a definition of how different values interact. The ECMAScript specification about type coercion is really big; there are lots of rules and exceptions and trusting on these conversions is a fatal error.
+
+This is a major source of bugs in JavaScript programs because there is no **sensible** nor **consistent** specification of how these values should interoperate and behave, but empirical and variant ones, or do you expect logically that `[] + {}` is `[object Object]` and `{} + []` is `0`? I don't think so.
 
 ## Somebody stop this!
 
