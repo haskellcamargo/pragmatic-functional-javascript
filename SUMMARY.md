@@ -53,7 +53,7 @@
   * Extending Babel
   * Sweet macros
 * [12. A bit of theory](a-bit-of-theory.md)
-  * [Lambda calculus](a-bit-of-theory/lambda-calculus.md)
+  * [Lambda calculus](a-bit-of-theory.md#lambda-calculus)
 * [13. Functional languages targeting JavaScript](functional-languages-targeting-javascript.md)
   * [LiveScript](functional-languages-targeting-javascript.md#livescript)
   * PureScript
