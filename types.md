@@ -8,3 +8,9 @@ Do we really need types? At first, this should be an obligation of the compiler;
 
 When talking about type checking, most people remember about Java, but this is definitely a terrible example of how a type system should be. Seriously, the type system implemented in Java forces you to declare things that the compiler already knows and accepts invalid programs because it is not well designed to deal with a thing we will call _subtyping_. In the section 12, "A bit of theory", we will give you a gentle introduction to type theory; we will not focus specifically on Java, but in systems that can be implemented in the subset of functional languages and explain how type inference works and why most of the languages have awful type systems that make a lot of people hate static typing. If you say you hate static typing, I'm 99% sure you don't hate static typing, but having to write type signature for obvious things and having to waste timing making the work that the compiler should do.
 
+## Flow is your friend
+
+Hopefully, to save us from the world of badly-typed programs, we have Flow.
+
+
+
