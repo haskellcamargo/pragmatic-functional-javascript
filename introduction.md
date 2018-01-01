@@ -21,9 +21,9 @@ This book is separated in 15 chapters with specific subsections:
 
 ## What does "pragmatism" mean?
 
-Pragmatism, noun, a **practical **aproach to problems and affairs. There is no word that can describe this book better. We are going to focus on practical applications of the beautiful and enchanting theory built around functional programming. This book is made for people with basic knowledges on JavaScript programming; you definitely shouldn't have exceptional abilities to understand the things here written: it is made to be practical, simple, concise and after that we except you to be able to write real world applications using the functional paradigm and finally say "I **do **work with functional programming!".
+Pragmatism, noun, a **practical** aproach to problems and affairs. There is no word that can describe this book better. We are going to focus on practical applications of the beautiful and enchanting theory built around functional programming. This book is made for people with basic knowledges on JavaScript programming; you definitely shouldn't have exceptional abilities to understand the things here written: it is made to be practical, simple, concise and after that we except you to be able to write real world applications using the functional paradigm and finally say "I **do** work with functional programming!". This book may be complex for beginners and trivial for advanced programmers. It is designed thinking in the usual programmer that uses JavaScript daily to build any kind of application, but that already **do** have familiarity with JavaScript and is open to the functional mindset. If you are starting to code now, there are better alternatives to this, such as *Structure and Interpretation of Computer Programs* and *How to Design Programs*.
 
-When possible, we'll provide the problem that we are trying to solve with alternative implementations and techniques in other paradigms. Programming is made to solve problems, but sometimes solving a problem may generate several other small problems. Before continuing, we need to set some premises:
+When possible, we'll provide the problem that we are trying to solve with alternative implementations and techniques in other paradigms. Programming is made to solve problems, but sometimes solving a problem may generate several other small problems, and this is where we will touch; this is what we will try to avoid. Before continuing, we need to set some premises:
 
 * **Programming languages are not perfect**: seriously. They are built and designed by humans, and humans are not perfect \(far from that!\). They may contain failures and arbitrarily defined features, however, most times there is a reasonable explanation about the "workaround".
 
@@ -35,7 +35,7 @@ When possible, we'll provide the problem that we are trying to solve with altern
 
 ### The author
 
-Marcelo Camargo is a developer and translator known in Brazil for advocating in favor of functional programming. He is the creator of the Quack programming language, Skype unofficial version for Linux and contributor on dozens of open-source projects. If you want to talk about compilers and type theory, you can easily find him on GitHub under [/haskellcamargo](https://github.com/haskellcamargo).
+Marcelo Camargo is a cute brazilian programmer and one of the main evangelists of the paradigm in Brazil. He is the designer of the Quack programming language and colaborator or maintainer of dozens of open-source projects, such as the first unnoficial version of Skype for Linux and improvements on the PHP language. He loves type theory, capybaras and has a cute black cat that is almost always with him while writing. You can find him on GitHub under [`/haskellcamargo`](https://github.com/haskellcamargo) or write him a letter on [marcelocamargo@linuxmail.org](marcelocamargo@linuxmail.org).
 
 
 
