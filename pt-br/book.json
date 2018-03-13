@@ -1,0 +1,11 @@
+{
+    "title": "Pragmatic Functional JavaScript",
+    "description": "Real world functional programming inside JavaScript environment",
+    "structure": {
+        "readme": "introduction.md"
+    },
+    "pdf": {
+        "fontSize": 15,
+        "fontFamily": "Quattrocento"
+    }
+}
