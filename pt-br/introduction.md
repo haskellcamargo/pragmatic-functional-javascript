@@ -26,31 +26,30 @@ A maioria das partes deste livro são independentes, para que você possa ler ca
 
 ## O que significa "pragmatismo"?
 
-Pragmatism, noun, a **practical** aproach to problems and affairs. There is no word that can describe this book better. We are going to focus on practical applications of the beautiful and enchanting theory built around functional programming. This book is made for people with basic knowledges on JavaScript programming; you definitely shouldn't have exceptional abilities to understand the things here written: it is made to be practical, simple, concise and after that we except you to be able to write real world applications using the functional paradigm and finally say "I **do** work with functional programming!". This book may be complex for beginners and trivial for advanced programmers. It is designed thinking in the usual programmer that uses JavaScript daily to build any kind of application, but that already **do** have familiarity with JavaScript and is open to the functional mindset. If you are starting to code now, there are better alternatives to this, such as *Structure and Interpretation of Computer Programs* and *How to Design Programs*.
-
 Pragmatismo, substantivo, uma abordagem **prática** para problemas e assuntos. Não há nenhuma palavra que possa descrever este livro melhor. Vamos nos concentrar em aplicações práticas da bela e encantadora teoria construída em torno da programação funcional. Este livro é feito para pessoas com conhecimentos básicos sobre programação de JavaScript; você definitivamente não deveria ter habilidades excepcionais para entender as coisas aqui escritas: é feito para ser prático, simples, conciso e depois disso, exceto você, para poder escrever aplicativos do mundo real usando o paradigma funcional e, finalmente, dizer "Eu **faço** o trabalho com programação funcional! ". Este livro pode ser complexo para iniciantes e triviais para programadores avançados. Ele é projetado pensando no programador usual que usa o JavaScript diariamente para construir qualquer tipo de aplicativo, mas que já **tem** familiaridade com o JavaScript e está aberto à mentalidade funcional. Se você está começando a codificar agora, existem melhores alternativas para isso, como *Structure and Interpretation of Computer Programs* e *How to Design Programs*.
 
-When possible, we'll provide the problem that we are trying to solve with alternative implementations and techniques in other paradigms. Programming is made to solve problems, but sometimes solving a problem may generate several other small problems, and this is where we will touch; this is what we will try to avoid. Before continuing, we need to set some premises:
+Quando possível, forneceremos o problema que estamos tentando resolver com implementações e técnicas alternativas em outros paradigmas. A programação é feita para resolver problemas, mas às vezes resolver um problema pode gerar vários outros pequenos problemas, e é aqui que tocaremos; É isso que tentaremos evitar. Antes de continuar, precisamos estabelecer algumas premissas:
 
-* **Programming languages are not perfect**: seriously. They are built and designed by humans, and humans are not perfect \(far from that!\). They may contain failures and arbitrarily defined features, however, most times there is a reasonable explanation about the "workaround".
+* **As linguagens de programação não são perfeitas**: sério. Elas são construídas e projetadas por humanos, e os humanos não são perfeitos \(longe disso!\). Eles podem conter falhas e recursos arbitrariamente definidos, no entanto, na maioria das vezes, há uma explicação razoável sobre a "gambiarra".
 
-* **Problem solving may generate other problems**: if you are worried only about "getting shit done", this might be a bit controversial for you. When you solve a problem, have in mind that your solution is not free from introducing problems that other people will have to solve later. Being open to criticism is a good thing here; this is how technology evolves.
+* **A resolução de problemas pode gerar outros problemas**: Se você está preocupado apenas com "fazer as coisas", isso pode ser um pouco controverso para você. Quando você resolve um problema, tenha em mente que sua solução não é livre de apresentar problemas que outras pessoas terão que resolver mais tarde. Estar aberto a críticas é bom aqui; É assim que a tecnologia evolui.
 
-* **The right tool for the right job**: this is pragmatism. We pick the tool that solves the problem and introduces the lowest number of side-effects. Good programmers analyse trade-offs. There are a lot of programming languages published and dozens of paradigms, and they are not made/discovered only because "somebody likes writing that way" or "somebody wants to have their name in a programming language" \(at least most times\), but because new problems arise. It is sensible, for example, to use Erlang on telephone systems, Agda on mathematical proofs and Go on concurrent systems, but it is definitely insane to use Brainfuck on web development and PHP on compiler development!
+* **A ferramenta certa para o trabalho certo**: isso é pragmatismo. Escolhemos a ferramenta que resolve o problema e introduz o menor número de efeitos colaterais. Os bons programadores analisam os trade-offs. Há muitas linguagens de programação publicadas e dezenas de paradigmas, e eles não são criados/descobertos apenas porque "alguém gosta de escrever dessa maneira" ou "alguém quer ter seu nome em uma linguagem de programação" \(pelo menos na maioria das vezes\) , mas porque surgem novos problemas. É sensível, por exemplo, usar Erlang em sistemas telefônicos, Agda em provas matemáticas e Go em sistemas concorrentes, mas é definitivamente insano usar Brainfuck no desenvolvimento web e PHP no desenvolvimento de compiladores!
 
 
+### O autor
 
-### The author
-
-Marcelo Camargo is a cute brazilian programmer and one of the main evangelists of the paradigm in Brazil. He is the designer of the Quack programming language and colaborator or maintainer of dozens of open-source projects, such as the first unnoficial version of Skype for Linux and improvements on the PHP language. He loves type theory, capybaras and has a cute black cat that is almost always with him while writing. You can find him on GitHub under [`/haskellcamargo`](https://github.com/haskellcamargo) or write him a letter on [marcelocamargo@linuxmail.org](marcelocamargo@linuxmail.org).
-
+Marcelo Camargo é um simpático programador brasileiro e um dos principais evangelistas do paradigma no Brasil. Ele é o designer da linguagem de programação Quack e colaborador ou mantenedor de dezenas de projetos open-source, como a primeira versão não oficial do Skype para Linux e melhorias na linguagem PHP. Ele ama a teoria do tipo, as capivaras e tem um gatinho preto fofo que quase sempre está com ele enquanto escreve. Você pode encontrá-lo no GitHub como [`/haskellcamargo`](https://github.com/haskellcamargo) ou escreva-lhe uma carta em [marcelocamargo@linuxmail.org] (marcelocamargo@linuxmail.org).
 
 
 ## The second chance
 
+## A segunda chance
+
+> E Deus disse: "que haja funções", e havia funções.
 > And God said, "let there be functions", and there were functions.
 
-In the beginning, computers were very slow, way slower than running Android Studio on your 2GB RAM machine! When the first physical computers appeared and programming languages started to be designed and implemented, there were mainly 2 mindsets:
+No começo, os computadores eram muito lentos, muito mais lentos do que o Android Studio em sua máquina RAM de 2GB! Quando os primeiros computadores físicos apareceram e as linguagens de programação começaram a ser projetadas e implementadas, havia principalmente 2 mentalidades:
 
 1. Start from the Von Neumann architecture and **add abstraction**;
 2. Start from mathematics and **remove abstraction**.
