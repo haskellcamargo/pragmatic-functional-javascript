@@ -49,42 +49,47 @@ Marcelo Camargo é um simpático programador brasileiro e um dos principais evan
 > E Deus disse: "que haja funções", e havia funções.
 > And God said, "let there be functions", and there were functions.
 
-No começo, os computadores eram muito lentos, muito mais lentos do que o Android Studio em sua máquina RAM de 2GB! Quando os primeiros computadores físicos apareceram e as linguagens de programação começaram a ser projetadas e implementadas, havia principalmente 2 mentalidades:
+No começo, os computadores eram muito lentos, muito mais lentos do que o Android Studio em sua máquina com 2GB de RAM! Quando os primeiros computadores físicos apareceram e as linguagens de programação começaram a ser projetadas e implementadas, havia principalmente 2 mentalidades:
 
-1. Start from the Von Neumann architecture and **add abstraction**;
-2. Start from mathematics and **remove abstraction**.
+1. Comece pela arquitetura de Von Neumann e **adicione a abstração**;
+2. Comece a partir da matemática e **remova a abstração**.
 
-When it all started, dealing with high levels of abstraction was very hard and costly, memory and storage were really small in power, so imperative programming languages got a lot more visibility than functional ones because imperative languages had a lower level of abstraction that was way easier to implement and map directly to the hardware. It could not be the best way to design programs and express ideas, but at least it was the faster one to run.
+Quando tudo começou, lidar com altos níveis de abstração era muito difícil e dispendioso, a memória e o armazenamento eram muito pequenos, então as linguagens de programação imperativas obtiveram muito mais visibilidade do que as funcionais, pois as linguagens imperativas tinham um nível de abstração inferior que era uma maneira mais fácil de implementar e mapear diretamente para o hardware. Poderia não ser a melhor maneira de projetar programas e expressar idéias, mas pelo menos era mais rápido para executar.
 
-But computers improved a lot, and functional programming finally got its deserved chance! Functional programming is not a new concept. I'm serious, it is really old and came directly from mathematics! The core concepts and the functional computational model came even before physical computers existed. It had its origins on lambda calculus, and it was initally only a formal system developed in the 1930s to investigate computability.
+Mas os computadores melhoraram muito, e a programação funcional finalmente conseguiu sua merecida chance! A programação funcional não é um conceito novo. Estou falando sério, é muito velho e veio diretamente da matemática! Os conceitos fundamentais e o modelo computacional funcional vieram mesmo antes que os computadores físicos existissem. Tinha suas origens no cálculo lambda, e era, inicialmente, apenas um sistema formal desenvolvido na década de 1930 para investigar computabilidade.
 
-A lot of modern programming languages support well functional programming. Even Java surrended to this and implemented lambda expressions and streams. Most of you program in languages that were created; I want to show you the one which was discovered.
+Muitas linguagens de programação modernas suportam programação funcional bem. Até Mesmo Java se rendeu a isso e implementou expressões lambda e streams. A maioria de vocês programa em linguagens que foram criadas; Quero mostrar-lhe o que foi descoberto.
 
-### Why functional programming?
 
-If imperative programming and other paradigms, like object orientation, were good enough, why do we need to learn a new way to code? The answer is: survival. Object orientation cannot save us from the cloud monster anymore. More complex problems have arisen and functional programming fits them very well. Functional programming is not "another syntax", as some people think; it is another mindset and a declarative way to solve problems. While in imperative programming you specify steps and how things happen, in declarative \(functional and logic\) programming you specify what has to be done, and the computer should decide the best way to do that. We've evolved a lot to do the job that a computer can do hundreds of times better than us.
+### Por que a programação funcional?
 
-#### Testability and maintainability
+Se a programação imperativa e outros paradigmas, como a orientação do objeto, eram bons o suficiente, por que precisamos aprender uma nova maneira de codificar? A resposta é: sobrevivência. A orientação a objeto não pode mais nos salvar do monstro da nuvem. Problemas mais complexos surgiram e a programação funcional se encaixa muito bem. A programação funcional não é "outra sintaxe", como algumas pessoas pensam; É uma outra mentalidade e uma maneira declarativa de resolver problemas. Embora na programação imperativa você especifique etapas e como as coisas acontecem, na programação declarativa \(funcional e lógica\) você especifica o que tem que ser feito e o computador deve decidir a melhor maneira de fazer isso. Nós evoluímos muito para fazer o trabalho que um computador pode fazer centenas de vezes melhor que nós.
 
-Modular and functional code bases are way easier to test and get a high coverage on unit tests. Things are very well isolated and independent, and by following all the main principles you get composable programs that work well together and have less bugs.
+#### Testabilidade e manutenção
 
-#### Parallelism
+As bases de código modulares e funcionais são muito mais fáceis de testar e obter uma cobertura elevada nos testes de unidades. As coisas são muito bem isoladas e independentes e, seguindo todos os princípios principais, você obtém programas compostos que funcionam bem juntos e têm menos erros.
 
-This is really variant with the implementation, but in languages that can track all sort of effects, you get parallelism and the possibility of clustering your program for free.
+#### Paralelismo
 
-#### Optimization
+Isso é realmente variável com a implementação, mas em linguagens que podem acompanhar todos os tipos de efeitos, você obtém paralelismo e a possibilidade de agrupar seu programa sem nenhum custo.
 
-Functional languages tend to be a lot easier to optimize and are more predictable for compilers. Knowing all sort of things that can haven in a program gives the possibility to the compiler to know the semantics of your code before even running it. Haskell can be even faster than C if you write idiomatic code! The main JavaScript engine, V8, has invested extensivily in otimizations for the functional paradigm.
+#### Otimização
 
-## Less is more
+As linguagens funcionais tendem a ser muito mais fáceis de otimizar e são mais previsíveis para os compiladores. Conhecer todo o tipo de coisas que podem ser vistas em um programa dá a possibilidade ao compilador de conhecer a semântica do seu código antes mesmo de executá-lo. Haskell pode ser ainda mais rápido que C se você escrever código idiomático! O principal mecanismo de JavaScript, V8, investiu amplamente em otimizações para o paradigma funcional.
+
+## Menos é mais
+
+Ter muitas maneiras de fazer um trabalho e resolver um problema no mesmo contexto é sempre bom, certo? Bem, nem sempre. Se você arruinar a maioria das linguagens de programação que são amplamente utilizadas pelo mercado, então você possui uma linguagem funcional - e isso também é válido para JavaScript. O JavaScript tem fortes laços com o Esquema e tem o potencial perfeito para ser uma excelente linguagem funcional. Remova laços, mutabilidade, referências, declarações condicionais, exceções, etiquetas, blocos e você praticamente possui um dialecto OCaml digitado dinamicamente. Estou falando sério, você pode até definir funções em JavaScript sem dar importância à ordem em que ocorrem, assim como OCaml em Haskell do - isso é o que podemos chamar de içamento e nós estaremos curiosos para aproveitar isso no próximo capítulos.
 
 Having a lot of ways to do a job and to solve a problem in the same context is always good, right? Well, not always. If you pluck most programming languages that are largely used by the market, then you have a functional language ─ and this is valid also to JavaScript. JavaScript has strong ties with Scheme and has the perfect potential to be a very good functional language. Remove loops, mutability, references, conditional statements, exceptions, labels, blocks and you virtually have a dynamically typed OCaml dialect. I'm serious, you can even define functions in JavaScript without giving importance to the order they occur, just like OCaml em Haskell do ─ this is what we can call hoisting and we'll be seing how to take advantage of this in the next chapters.
 
+Não seja avaro. Você realmente precisa de todos esses diferentes constrangimentos de linguagem sem endereço? Nos capítulos deste livro, descartaremos uma grande parte do JavaScript e nos concentraremos apenas em um subconjunto expressivo: funções e ligações, é tudo o que precisamos por enquanto! Antes de aprender a programação funcional com JavaScript, primeiro você terá que pensar em desmarcar algumas coisas. Isso é necessário para evitar vícios de linguagem e estimular seu cérebro para resolver problemas de maneira declarativa. Por enquanto, você terá que confiar, mas no decorrer deste livro, você verá como tudo faz sentido e se encaixa no propósito.
+
 Don't be miser. Do you really need all that different unaddressed language constructs? In the chapters of this book we'll discard a large part of JavaScript and we'll focus only in an expressive subset: functions and bindings, it is everything we'll need for now! Before learning functional programming with JavaScript, you first will have to think about unlearning some things. This is necessary to avoid language vices and to estimulate your brain to solve problems in a declarative way. For now, you'll have to trust, but in the course of this book you'll see how everything makes sense and fits into the purpose.
 
-## Tooling
+## Ferramentas
 
-We'll focus more on program semantics and correctness than execution, but if you really want to learn, only reading this book will not be enough.
+Nós nos concentraremos mais na semântica do programa e na correção do que na execução, mas se você realmente quiser aprender, apenas a leitura deste livro não será suficiente.
 
 
 
