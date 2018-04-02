@@ -1,10 +1,10 @@
-# Summary
+# Sumário
 
-* [1. Introduction](introduction.md)
-  * [What does "pragmatism" mean?](introduction.md#what-does-pragmatism-mean)
-  * [The second chance](introduction.md#the-second-chance)
-  * [Less is more](introduction.md#less-is-more)
-  * [Tooling](introduction.md#tooling)
+* [1. Introdução](introduction.md)
+  * [O que significa "pragmatismo"?](introduction.md#o-que-significa-pragmatismo)
+  * [A segunda chance](introduction.md#a-segunda-chance)
+  * [Menos é mais](introduction.md#menos-é-mais)
+  * [Ferramentas](introduction.md#ferramentas)
 * [2. Roots of the evil](roots-of-the-evil.md)
   * [Null considered harmful](roots-of-the-evil.md#null-considered-harmful)
   * [Mutability can kill your hamster](roots-of-the-evil.md#mutability-can-kill-your-hamster)
