@@ -5,7 +5,6 @@ Este livro está separado em 15 capítulos com sub-seções específicas:
 1. **Introdução**: Este capítulo lhe dá uma breve introdução sobre o desenvolvimento de software pragmático, abordando a história e razão da programação funcional e como é aplica-la ao desenvolvimento de software moderno.
 2. **Origem do mal**: apresenta características de linguagem que são mais prejudiciais do que benéficas e depois se concentra em alternativas para resolver os problemas que elas apresentaram.
 3. **Conheça o ESLint**: mostra como encorajar a escrita do código funcional e restringir os recursos prejudiciais da linguagem usando uma ferramenta específica para isso.
-4. **Modules**: focuses on how to organize modular code and functions according to their domain and structuring the file system of your program. There is a special focus on modular code, code that is not specific for the program, but that can be easily reused and help you writing less.
 4. **Módulos**: focado em como organizar o código modular e as funções de acordo com seu domínio e estruturar a arquitetura de diretórios do seu programa. Existe um foco especial no código modular, código que não é específico para o programa, mas que pode ser facilmente reutilizado e ajudá-lo a escrever menos.
 5. **O poder da composição**: aborda o que realmente é a programação funcional e mostra como criar coisas mais complexas, compondo muito simples. É definitivamente como jogar LEGO!
 6. **Types**: provides an overview about how a type system behaves and tools for static type checking on JavaScript in order to reduce the number of bugs. It also provides a different overview about static type system, different from what is presented in most courses and tutorials.
@@ -42,12 +41,9 @@ Quando possível, forneceremos o problema que estamos tentando resolver com impl
 Marcelo Camargo é um simpático programador brasileiro e um dos principais evangelistas do paradigma no Brasil. Ele é o designer da linguagem de programação Quack e colaborador ou mantenedor de dezenas de projetos open-source, como a primeira versão não oficial do Skype para Linux e melhorias na linguagem PHP. Ele ama a teoria do tipo, as capivaras e tem um gatinho preto fofo que quase sempre está com ele enquanto escreve. Você pode encontrá-lo no GitHub como [`/haskellcamargo`](https://github.com/haskellcamargo) ou escreva-lhe uma carta em [marcelocamargo@linuxmail.org] (marcelocamargo@linuxmail.org).
 
 
-## The second chance
-
 ## A segunda chance
 
 > E Deus disse: "que haja funções", e havia funções.
-> And God said, "let there be functions", and there were functions.
 
 No começo, os computadores eram muito lentos, muito mais lentos do que o Android Studio em sua máquina com 2GB de RAM! Quando os primeiros computadores físicos apareceram e as linguagens de programação começaram a ser projetadas e implementadas, havia principalmente 2 mentalidades:
 
@@ -81,7 +77,7 @@ As linguagens funcionais tendem a ser muito mais fáceis de otimizar e são mais
 
 Ter muitas maneiras de fazer um trabalho e resolver um problema no mesmo contexto é sempre bom, certo? Bem, nem sempre. Se você pegar a maioria das linguagens de programação que são amplamente utilizadas pelo mercado, então você tem uma linguagem funcional - e isso é válido também para o JavaScript. O JavaScript tem fortes laços com o Esquema e tem o potencial perfeito para ser uma excelente linguagem funcional. Remova laços, mutabilidade, referências, declarações condicionais, exceções, etiquetas, blocos e você praticamente possui um dialeto OCaml digitado dinamicamente. Estou falando sério, você pode até definir funções em JavaScript sem dar importância à ordem em que ocorrem, assim como OCaml em Haskell faz - isso é o que podemos chamar de hoisting e nós veremos como aproveitar isso nos próximos capítulos.
 
-Não seja avaro. Você realmente precisa de todas as diferentes construções de linguagem não endereçadas? Nos capítulos deste livro, descartaremos uma grande parte do JavaScript e nos concentraremos apenas em um subconjunto expressivo: funções e ligações, é tudo o que precisamos por enquanto! Antes de aprender a programação funcional com JavaScript, primeiro você terá que pensar em desaprender algumas coisas. Isso é necessário para evitar vícios de linguagem e estimular seu cérebro para resolver problemas de maneira declarativa. Por enquanto, você terá que confiar, mas no decorrer deste livro, você verá como tudo faz sentido e se encaixa no propósito.
+Não seja avarento. Você realmente precisa de todas as diferentes construções de linguagem não endereçadas? Nos capítulos deste livro, descartaremos uma grande parte do JavaScript e nos concentraremos apenas em um subconjunto expressivo: funções e ligações, é tudo o que precisamos por enquanto! Antes de aprender a programação funcional com JavaScript, primeiro você terá que pensar em desaprender algumas coisas. Isso é necessário para evitar vícios de linguagem e estimular seu cérebro para resolver problemas de maneira declarativa. Por enquanto, você terá que confiar, mas no decorrer deste livro, você verá como tudo faz sentido e se encaixa no propósito.
 
 ## Ferramentas
 
